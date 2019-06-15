@@ -1,18 +1,18 @@
 * { box-sizing: border-box; 
 }
-body { margin: 0;
-        background-color: #cccccc;
+body {     margin: 0;  
         font-family: Arial, Helvetica, sans-serif; 
-       
+       background-image: url("assets\images\fishnets-and-hearts\fishnets-and-hearts.png");
+       background-color: #cccccc;
     }
 
-
+    
         
 
 header h1 { background-color: #4aaaa5;
         color: #ffffff;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    overflow: hidden;
+       
         float: left;
         padding: .75em;
         margin-left: 120px;
@@ -29,6 +29,7 @@ header h1 { background-color: #4aaaa5;
             padding-top: 5em;
             position: relative;
             float:right;
+            margin-right: 50px;
     }
 
 nav ul { list-style-type: none;
@@ -67,17 +68,17 @@ nav ul { list-style-type: none;
             #portrait { height: 200px;
                         width: 200px;
                         float: left;
-                        margin-left: 20px;
+                        margin: 20px 20px;
                     }
 
-            header, main, nav, footer { display: block;
-            }
-
+            
             footer { text-align: center;
                         border-top: 8px solid #4aaaa5;
                         background-color: #666666; 
                         padding-top: 1em;
                         color: #ffffff;
+                        margin: 0;
+                        width: auto;
             }
 
             hr {  padding-left: 2em;
@@ -91,6 +92,7 @@ nav ul { list-style-type: none;
                 padding: 25px;
                 width: auto;
                 height: auto;
+                margin-right: 50px;
                  }
 
                  input[type=text] { width: 81%;
@@ -104,6 +106,8 @@ nav ul { list-style-type: none;
                     color: #ffffff;
                     height: 36px;
                     width: 86px;
+                    font-weight: bold;
+                    font-size: 14px;
                     
                 }
 
@@ -112,5 +116,37 @@ nav ul { list-style-type: none;
                             }
 
                             form { font-family: Arial, Helvetica, sans-serif;
+                                    font-size: 20px;
+                                  
                             }
+
+                            .portfolio { display: flex;
+                                            justify-content: center;
+                                        flex-wrap: wrap;
+                                        height: 450px;
+                                        width: 600px;
+                                        margin-right: 50px;
+                                      
+                                    }
                
+                            .portfolio > div { margin: 10px;
+                                                text-align: center;
+                                                font-size: 24px;
+                                                line-height: 36px;
+                                           height: 150px;
+                                    width: 150px;
+                                    background: #666666;
+                                   
+                                }
+                                
+
+                                .text { background: #4aaaa5;
+                                            color: #ffffff; 
+                                            height: 40px;  
+                                            width: 150px;
+                                            bottom: 65px;
+                                           z-index: 1;
+                                           font-size: 14px;
+                                            position: relative;
+                                            font-weight: bold;
+                                        }
