@@ -150,3 +150,13 @@ nav ul { list-style-type: none;
                                             position: relative;
                                             font-weight: bold;
                                         }
+
+                                        html, body {
+                                            height: 100%;
+                                          }
+                                         
+                                        
+                                          .footer {
+                                            flex-shrink: 0;
+                                          }
+
