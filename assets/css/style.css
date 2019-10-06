@@ -14,7 +14,6 @@ header h1 {
         background-color: #4aaaa5;
         color: #ffffff;
         font-family: Georgia, 'Times New Roman', Times, serif;
-
         float: left;
         padding: .75em;
         margin-left: 50px;
@@ -165,9 +164,9 @@ form {
 .text {
         background: #4aaaa5;
         color: #ffffff;
-        height: 40px;
+        height: 35px;
         width: 150px;
-        bottom: 65px;
+        bottom: 55px;
         z-index: 1;
         font-size: 14px;
         position: relative;
