@@ -32,6 +32,7 @@ nav {
         position: static;
         float: right;
         margin-right: 50px;
+        font-family: 'Varela Round', sans-serif;
 }
 
 nav ul {
@@ -50,7 +51,7 @@ nav li {
         margin: 0;
         text-align: center;
         color: #777777;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Varela Round', sans-serif;
         padding-left: 2em;
         color: #4aaaa5;
 }
@@ -161,6 +162,7 @@ form {
 }
 
 
+
 .text {
         background: #4aaaa5;
         color: #ffffff;
@@ -181,6 +183,9 @@ body {
 
 .footer {
         flex-shrink: 0;
+        height: 100px;
+        padding: 15px 20px;
+
 }
 
 @media screen and (max-width: 980px) {
@@ -224,6 +229,7 @@ body {
         footer {
                 padding-bottom: 15px;
                 margin-top: 100px;
+                height: 100px;
         }
 
         hr {
@@ -305,6 +311,7 @@ body {
         footer {
                 padding-bottom: 12px;
                 margin-top: 175px;
+                height: 75px;
         }
 
 }
